@@ -1,0 +1,18 @@
+Algoritmo <"nota aluno">
+inicio
+var
+nome_aluno: caractere
+nota1,nota2,nota3,media: real
+
+escreva("Digite o nome do aluno: ");
+leia(nome_aluno);
+escreva("digite a nota da primeira prova: ");
+leia(nota1);
+escreva("digite a nota da segunda prova: ");
+leia(nota2);
+escreva("digite a nota da terceira prova: ");
+leia(nota3);
+media<-(nota1+nota2+nota3)/3;
+
+escreva("O aluno", nome_aluno, "nas 3 provas teve uma media de", media);
+fim
