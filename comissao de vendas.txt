@@ -1,0 +1,14 @@
+Algortimo <comissao de vendas>
+inicio
+nome:caractere
+salarioF,salarioT,comissao:real
+
+escreva("digite o nome do vendedor: ");
+leia(nome);
+escreva(digite o salario fixo do vendedor: ");
+leia(salarioF);
+comissao=0.15;
+salarioT=salariof+(salarioF*comissao);
+leia(salarioT);
+
+escreva("o vendedor", nome , "possui o salario fixo de: ", salarioF ,"com a comissao o salario total do vendedor e de: ", salarioT);
