@@ -1,0 +1,14 @@
+Algoritmo "troca_de_valor"
+var
+A,B,auxiliar:inteiro
+
+inicio 
+A<-14
+B<-8
+
+auxiliar<-A;
+A<-B;
+B<-auxiliar;
+
+escreva(" A: ", A , "B: ", B);
+fim
