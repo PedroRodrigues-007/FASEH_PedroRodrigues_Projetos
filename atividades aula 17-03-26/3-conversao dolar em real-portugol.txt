@@ -1,0 +1,14 @@
+Algoritmo <conversao real>
+var 
+ v1,v2,v3:real
+
+inicio
+escreva("qual e o valor da cotação do dólar : ")
+leia(v1)
+escreva("qual a quantidade de dólares disponivel do usario: ")
+leia(v2)
+
+v3 <- v2*v1
+
+escreva("O valor equivalente em reais e: R$ ", v1)
+fim
