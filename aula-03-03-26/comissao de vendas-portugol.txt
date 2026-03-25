@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Algortimo <comissao de vendas>
 var
 nome:caractere
@@ -14,3 +15,21 @@ leia(salarioT);
 
 
 escreva("o vendedor", nome , "possui o salario fixo de: ", salarioF ,"com a comissao o salario total do vendedor e de: ", salarioT);
+=======
+Algortimo <comissao de vendas>
+var
+nome:caractere
+salarioF,salarioT,comissao:real
+
+inicio
+escreva("digite o nome do vendedor: ");
+leia(nome);
+escreva(digite o salario fixo do vendedor: ");
+leia(salarioF);
+comissao=0.15;
+salarioT=salariof+(salarioF*comissao);
+leia(salarioT);
+
+
+escreva("o vendedor", nome , "possui o salario fixo de: ", salarioF ,"com a comissao o salario total do vendedor e de: ", salarioT);
+>>>>>>> 92536444303f1cacc153e299ba8eb7dbfd4824b5

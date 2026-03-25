@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 algoritmo <convercao_temperatura>
 var
 F,C: real
@@ -7,4 +8,15 @@ escreva(digite a temperatura em graus celcius: ")
 F <- (9*C) +160 / 5
 
  escreva"(esta temperatura em Fahrenheit e : ", F)
+=======
+algoritmo <convercao_temperatura>
+var
+F,C: real
+
+escreva(digite a temperatura em graus celcius: ")
+ leia(C)
+F <- (9*C) +160 / 5
+
+ escreva"(esta temperatura em Fahrenheit e : ", F)
+>>>>>>> 92536444303f1cacc153e299ba8eb7dbfd4824b5
 fim

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 algoritmo <consumo de gasolina>
 var
 Consumo,distancia,combustivel:real
@@ -16,3 +17,23 @@ fimse
 escreva("o consumo medio por km do automovel e: ", Consumo , " por litros ") 
 
 fim
+=======
+algoritmo <consumo de gasolina>
+var
+Consumo,distancia,combustivel:real
+
+inicio
+escreva("digite a distancia percorrida em km pelo veiculo" :)
+ leia(distancia)
+escreva("digite o combustivel gasto litros por do veiculo " :)
+ leia(combustivel)  
+ se combustivel <> 0
+   Consumo <- distancia/combustivel
+ senao 
+   escreva ("erro nao e possivel gastar 0 litros de gasolina")
+fimse
+
+escreva("o consumo medio por km do automovel e: ", Consumo , " por litros ") 
+
+fim
+>>>>>>> 92536444303f1cacc153e299ba8eb7dbfd4824b5

@@ -1,0 +1,17 @@
+algortimo <custo_consumidor_carro>
+inicio
+var
+Custo_fabrica,custo_consumidor,custo_imposto,:real
+distribuidor,impostos:inteiro
+
+escreva("Digite o custo de fabrica do carro R$: ")
+ leia(Custo_fabrica)
+
+impostos <-45
+distribuidor <-28
+
+custo_imposto <- (Custo_fabrica*impostos/100)
+custo_consumidor <- custo_imposto*distribuidor/100
+
+escreva ("o valor do custo do consumido e R$: ", custo_consumidor)
+fim

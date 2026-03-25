@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Algoritmo "troca_de_valor"
 var
 A,B,auxiliar:inteiro
@@ -11,4 +12,19 @@ A<-B;
 B<-auxiliar;
 
 escreva(" A: ", A , "B: ", B);
+=======
+Algoritmo "troca_de_valor"
+var
+A,B,auxiliar:inteiro
+
+inicio 
+A<-14
+B<-8
+
+auxiliar<-A;
+A<-B;
+B<-auxiliar;
+
+escreva(" A: ", A , "B: ", B);
+>>>>>>> 92536444303f1cacc153e299ba8eb7dbfd4824b5
 fim

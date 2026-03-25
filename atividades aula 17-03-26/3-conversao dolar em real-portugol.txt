@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Algoritmo <conversao real>
 var 
  v1,v2,v3:real
@@ -11,4 +12,19 @@ leia(v2)
 v3 <- v2*v1
 
 escreva("O valor equivalente em reais e: R$ ", v1)
+=======
+Algoritmo <conversao real>
+var 
+ v1,v2,v3:real
+
+inicio
+escreva("qual e o valor da cotação do dólar : ")
+leia(v1)
+escreva("qual a quantidade de dólares disponivel do usario: ")
+leia(v2)
+
+v3 <- v2*v1
+
+escreva("O valor equivalente em reais e: R$ ", v1)
+>>>>>>> 92536444303f1cacc153e299ba8eb7dbfd4824b5
 fim
