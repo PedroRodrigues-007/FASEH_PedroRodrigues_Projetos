@@ -37,5 +37,6 @@ ate resposta = "N"
 
 escreva("Total de carros ate 2010: ", total_ate_2010, "\n")
 escreva("Total geral de carros: ", total_geral)
- fim
+
+fim
     
