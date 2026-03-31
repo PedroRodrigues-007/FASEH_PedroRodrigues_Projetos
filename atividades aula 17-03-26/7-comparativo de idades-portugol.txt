@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 algortimo<idade_pessoas>
 inicio
 var
@@ -16,4 +17,24 @@ escreva("digite a idade do usuario: ")
    escreva("o usuario e idoso")
  fimse
 fimpara
+=======
+algortimo<idade_pessoas>
+inicio
+var
+idade,i:inteiro
+
+para i de 1 ate 75 faca
+  escreva(i)
+
+escreva("digite a idade do usuario: ")
+ leia(idade)
+ se idade >=1 e idade <=17 entao
+   escreva("o usuario e menor de idade")
+ senao se idade >=18 e idade <=59 entao
+   escreva("o usuario e maior de idade")
+ senao
+   escreva("o usuario e idoso")
+ fimse
+fimpara
+>>>>>>> d76de969978bf4dc8213a116a3633eb6b068644a
 fim

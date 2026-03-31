@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d76de969978bf4dc8213a116a3633eb6b068644a
 algoritmo rendimento poupança
 inicio 
 
@@ -12,4 +16,23 @@ escreva("digite o valor a ser depositado: ")
   escreva("Valor depositado: R$ ", deposito)
   escreva("Rendimento: R$ ", v2)
   escreva("Total com juros: R$ ", deposito + v2)
+<<<<<<< HEAD
+=======
+=======
+algoritmo rendimento poupança
+inicio 
+
+var
+v1,v2,deposito:real
+
+escreva("digite o valor a ser depositado: ")
+ leia(deposito)
+ v1<-0,70
+
+ v2 <-(deposito*v1)/100
+  escreva("Valor depositado: R$ ", deposito)
+  escreva("Rendimento: R$ ", v2)
+  escreva("Total com juros: R$ ", deposito + v2)
+>>>>>>> 6ce495d396bb08fb41d2271889725277a3f0cb51
+>>>>>>> d76de969978bf4dc8213a116a3633eb6b068644a
 fim

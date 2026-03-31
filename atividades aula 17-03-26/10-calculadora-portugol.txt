@@ -1,3 +1,4 @@
+
 algoritmo<calculadora>
 inicio
 var
@@ -20,4 +21,28 @@ para i de 1 ate t faca
          escreva(N, " - ", i, " = ", resultado)
   fimse
  fimpara
+
+algoritmo<calculadora>
+inicio
+var
+i,N,T:inteiro
+resultado:real
+O:caractere
+
+para i de 1 ate t faca
+  se (O = "S") então
+         resultado <- N + i
+         escreva(N, " + ", i, " = ", resultado)
+  se (O = "M") então
+         resultado <- N * i
+         escreva(N, " * ", i, " = ", resultado)
+  se (O = "D") então
+         resultado <- N / i
+         escreva(N, " / ", i, " = ", resultado)
+  se (O = "R") então
+         resultado <- N - i
+         escreva(N, " - ", i, " = ", resultado)
+  fimse
+ fimpara
+
 fimalgoritmo

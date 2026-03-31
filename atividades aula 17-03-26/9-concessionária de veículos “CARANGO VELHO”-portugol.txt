@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 algoritmo<desconto_concessionaria>
 inicio
 var
@@ -40,3 +41,47 @@ escreva("Total geral de carros: ", total_geral)
 
 fim
     
+=======
+algoritmo<desconto_concessionaria>
+inicio
+var
+ano_veiculo,desconto1,desconto2,total_ate_2010,totalF:inteiro
+preco_veiculoI,preco_veiculoF,valorF:real
+resposta,;caractere
+
+ano_veiculo <-0
+preco_veiculo <-0
+desconto1 <-12
+desconto2 <-7
+
+repita 
+ escreva("qual e o ano do veiculo: ")
+  leia(ano_veiculo)
+ escreva("qual e o valor do veiculo: ")
+  leia(preco_veiculoI)
+ 
+  se ano_veiculo <= 2010 entao
+   preco_veiculoF <-(preco_veiculoI*desconto1)/100
+     total_ate_2010 <- total_ate_2010 + 1
+  senao
+   preco_veiculoF <-(preco_veiculoI*desconto2)/100
+fimse
+
+  valor_final <- preco_veiculo - desconto
+
+   escreva("Valor do desconto: ", desconto, "\n")
+   escreva("Valor final a pagar: ", valor_final, "\n")
+
+   total_geral <- total_geral + 1
+
+   escreva("Deseja continuar? (S/N): ")
+   leia(resposta)
+
+ate resposta = "N"
+
+escreva("Total de carros ate 2010: ", total_ate_2010, "\n")
+escreva("Total geral de carros: ", total_geral)
+
+fim
+    
+>>>>>>> d76de969978bf4dc8213a116a3633eb6b068644a
