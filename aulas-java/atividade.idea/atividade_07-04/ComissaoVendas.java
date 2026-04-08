@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Scratch {
+class ComissaoVendas {
     public static void main(String[] args) {
         String nomeVendedor;
         float salarioFixo, valorVendas, comissao, salarioTotal;
